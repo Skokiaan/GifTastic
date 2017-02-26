@@ -1,0 +1,38 @@
+.image {
+    width: 200px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 960px;
+    max-width: 100%;
+    background-color: lightgray;
+}
+
+button,
+#addInst {
+    background: #40e0d0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+form {
+    float: right;
+    margin-right: 40px;
+}
+
+#co12 {
+    background: red;
+}
+
+#addInst {
+    margin-left: 3px;
+}
+
+#pictures {
+    float: left;
+}
