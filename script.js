@@ -52,7 +52,7 @@ function addImag(instrument) {
         console.log(response);
         var resBody = response.data;
         $("#pictures").empty();
-
+        console.log(resBody.length);
         for (var i = 0; i < resBody.length; i++) {
 
             var newImg = $("<img>");
@@ -68,7 +68,7 @@ function addImag(instrument) {
 
 
             $("#pictures").append(newImg);
-            $("#pictures").apipend(p);
+            $("#pictures").append(p);
 
         } // end for loop
 

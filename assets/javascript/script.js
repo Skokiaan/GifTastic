@@ -68,7 +68,7 @@ function addImag(instrument) {
 
 
             $("#pictures").append(newImg);
-            $("#pictures").apipend(p);
+            $("#pictures").append(p);
 
         } // end for loop
 
